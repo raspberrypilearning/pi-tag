@@ -6,7 +6,11 @@ This resource is a simplified version of an [original idea](https://youtu.be/CM7
 
 ### What you will make
 
+Each player will wear a shirt containing the Raspberry Pi, RFID reader and LED, and will wear a glove with an attached RFID tag.
+
 [Add a picture here]
+
+When a player is tagged, their LED will change colour to show they have been caught.
 
 ### What you will learn
 
