@@ -25,7 +25,7 @@ Plus:
 
 --- collapse ---
 ---
-title: Install the software
+title: Easy software installation
 ---
 
 + Open a terminal
@@ -36,6 +36,10 @@ title: Install the software
 wget http://monkmakes.com/downloads/mmcck.sh
 chmod +x mmcck.sh
 ./mmcck.sh
+sudo reboot
+```
+
+Your Raspberry Pi will reboot after the final command.
 
 --- /collapse ---
 
