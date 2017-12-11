@@ -6,7 +6,7 @@ Your Raspberry Pi Zero/Zero-W will need a male header for the RFID reader to att
 
 ![Pi zero with header inserted](images/pi-zero-front.png)
 
-+ Using a soldering iron, carefully solder each of the pins on the header to the Zero, making sure there is enough solder to create a good connection for each one.
++ Using a soldering iron, carefully solder each of the pins on the header to the bottom of the Pi Zero, making sure there is enough solder to create a good connection for each one.
 
 ![Soldered Pi Zero](images/pi-zero-back.png)
 
