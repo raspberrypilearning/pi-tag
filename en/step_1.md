@@ -1,25 +1,23 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Create an outdoor physical computing tag game with RFID readers.
+
+This resource is a simplified version of an [original idea](https://youtu.be/CM7YRi4nfeQ){:target="_blank"} by winning Pioneers team Robot Apocalypse Committee for the **Make it outdoors** theme. You can see their original [PiTag code](https://github.com/RobotApocalypseCommittee/PiTag) and [PiTag server code](https://github.com/RobotApocalypseCommittee/PiTagServer) on GitHub.
 
 ### What you will make
 
-Add something here to showcase here, for example:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+[Add a picture here]
 
 ### What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
++ [Combine inputs and/or outputs to create projects or solve a problem](https://curriculum.raspberrypi.org/physical-computing/builder/){:target="_blank"}
+
++ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/){:target="_blank"}
 
 ### Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/pi-tag/print){:target="_blank"}.
 
 Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
