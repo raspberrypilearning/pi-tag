@@ -12,12 +12,11 @@ Let's test that the RFID reader works properly.
 
 + Reboot the Raspberry Pi.
 
-+ Open a terminal and make sure you are in the `/home/pi` directory by typing `cd /home/pi`.
++ Make sure you have installed the required software (see the "What you will need" step).
 
-+ Install SPI-Py by typing the following commands, each followed by <kbd>Enter</kbd> on the keyboard.
++ Open IDLE and create a new file called `rfid_test.py`
 
-```
-git clone https://github.com/mab5vot9us9a/SPI-Py  
-cd SPI-Py
-sudo python3 setup.py install
-```
+[[[rpi-gui-idle-opening]]]
+
+
++ Write some code to test whether your RFID reader can read a tag
