@@ -4,7 +4,7 @@
 
 You will need one set of hardware per player, so for example if you have two tag players you will need to double the kit quantities on this list.
 
-We used the [MonkMakes clever card kit](https://www.monkmakes.com/cck/) which contains all of the following components:
+We used the [MonkMakes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which contains all of the following components:
 
 + RFID tag reader
 + RFID tag or card
@@ -13,7 +13,8 @@ We used the [MonkMakes clever card kit](https://www.monkmakes.com/cck/) which co
 
 Plus:
 
-+ Raspberry Pi Zero with header
++ Raspberry Pi Zero or Zero-W
++ Male header and soldering iron to attach it OR [hammer header](https://shop.pimoroni.com/products/gpio-hammer-header){:target="_blank"}
 + USB battery pack
 
 ### Software

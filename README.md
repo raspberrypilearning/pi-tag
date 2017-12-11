@@ -1,6 +1,6 @@
-# Pi tag
+# PiTag
 
-![Pi tag](/en/images/banner.png)
+![PiTag](/en/images/banner.png)
 
 Create an outdoor physical computing tag game with RFID readers
 
