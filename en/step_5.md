@@ -19,22 +19,33 @@ Let's test that the RFID reader works properly.
 [[[rpi-gui-idle-opening]]]
 
 
-+ Write some code to test whether your RFID reader can read a tag
+Next you will write some code to test whether your RFID reader can read a tag.
+
++ Begin by importing two libraries needed to communicate with the RFID reader:
 
 ```python
 import RPi.GPIO
 import SimpleMFRC522
+```
++ Next, create a connection to the RFID reader. If you have used a Sense HAT, this line of code is similar to the line of code where you create a connection to the Sense HAT.
 
-
+```python
 reader = SimpleMFRC522.SimpleMFRC522()
+```
++ Add some code to read from the card. Each card contains an ID number and some text. This code contains an infinite loop so that you can read multiple cards one after another.
 
-print("Hold a tag near the reader")
-
+```python
 while True:
-    id, text = reader.read()
-    print(id)
-    print(text)
+    card_id, card_text = reader.read()
+    print(card_id)
+    print(card_text)
 
+```
 
++ Finally, add a line of code to clear up and close any connections with the GPIO pins. This code should not be indented as it is not part of the loop.
+
+```python
 GPIO.cleanup()
 ```
+
++ Save and run your code. Hold your RFID tag next to the reader and check that a value appears in the shell.

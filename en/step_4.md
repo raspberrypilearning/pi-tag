@@ -1,6 +1,6 @@
 ## Set up the RFID reader
 
-For this project, we used the [MonkMakes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which comes with full instructions for setting up the RFID reader and connecting it to the Raspberry Pi.
+For this project, we used the [MonkMakes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which comes with full instructions for setting up the RFID reader and connecting it to the Raspberry Pi. However, you could purchase the components separately if you wish.
 
 + Connect the seven female-female jumper leads to your RFID reader.
 
