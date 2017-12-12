@@ -24,7 +24,7 @@ Next you will write some code to test whether your RFID reader can read a tag.
 + Begin by importing two libraries needed to communicate with the RFID reader:
 
 ```python
-import RPi.GPIO
+import RPi.GPIO as GPIO
 import SimpleMFRC522
 ```
 + Next, create a connection to the RFID reader. If you have used a Sense HAT, this line of code is similar to the line of code where you create a connection to the Sense HAT.
@@ -44,7 +44,7 @@ try:
 
 You may not have seen `try:` before - this just allows us to tell Python to run the code as normal and then use `finally:` to clean up at the end.
 
-+ Finally, add a line of code to clear up and close any connections with the GPIO pins. The `finally:` be indented level with `try:`.
++ Finally, add a line of code to clear up and close any connections with the GPIO pins. The `finally:` should be indented level with `try:`.
 
 ```python
 finally:

@@ -25,4 +25,6 @@ print("Hold the tag near the reader")
 card_id, card_text = reader.write(text)
 ```
 
-+ Save and run your program
++ Save and run your program. Enter the text you would like to write to the tag, then when prompted hold your tag near the RFID reader.
+
+![Write text](images/write-text.png)
