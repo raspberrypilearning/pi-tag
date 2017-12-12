@@ -10,7 +10,7 @@ Now that your tag game code works, you need to make it start automatically when 
 sudo nano ~/.config/lxsession/LXDE-pi/autostart
 ```
 
-+ A file will open up, add this line at the bottom of the file to automatically start your time-lapse file using Python 3:
++ A file will open up, add this line at the bottom of the file to automatically start the tag game code using Python 3:
 
 ```
 sudo /usr/bin/python3 /home/pi/clever_card_kit/tag_game.py
