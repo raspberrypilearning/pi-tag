@@ -2,13 +2,13 @@
 
 Create an outdoor physical computing tag game with RFID readers.
 
-This resource is a simplified version of an [original idea](https://youtu.be/CM7YRi4nfeQ){:target="_blank"} by winning Pioneers team **Robot Apocalypse Committee** for the _Make it outdoors_ theme. 
+This resource is a simplified version of an [original idea](https://youtu.be/CM7YRi4nfeQ){:target="_blank"} by winning Pioneers team **Robot Apocalypse Committee** for the _Make it outdoors_ theme.
 
 ### What you will make
 
 Each player will wear a shirt containing the Raspberry Pi, RFID reader and LED, and will wear a glove with an attached RFID tag.
 
-[Add a picture here]
+![Cover pic](images/cover-pic.png)
 
 When a player is tagged, their LED will change colour to show they have been caught.
 
