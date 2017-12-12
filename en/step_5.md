@@ -35,17 +35,26 @@ reader = SimpleMFRC522.SimpleMFRC522()
 + Add some code to read from the card. Each card contains an ID number and some text. This code contains an infinite loop so that you can read multiple cards one after another.
 
 ```python
-while True:
-    card_id, card_text = reader.read()
-    print(card_id)
-    print(card_text)
-
+try:
+    while True:
+        card_id, card_text = reader.read()
+        print(card_id)
+        print(card_text)
 ```
 
-+ Finally, add a line of code to clear up and close any connections with the GPIO pins. This code should not be indented as it is not part of the loop.
+You may not have seen `try:` before - this just allows us to tell Python to run the code as normal and then use `finally:` to clean up at the end.
+
++ Finally, add a line of code to clear up and close any connections with the GPIO pins. The `finally:` be indented level with `try:`.
 
 ```python
-GPIO.cleanup()
+finally:
+    GPIO.cleanup()
 ```
 
+Using `finally:` means that the GPIO cleanup will happen regardless when you exit the program, and will prevent errors from occurring when you restart the program.
+
 + Save and run your code. Hold your RFID tag next to the reader and check that a value appears in the shell.
+
+![Tag read](images/tag-read.png)
+
++ Press <kbd>Ctrl + C</kbd> to exit the infinite loop in the program. You will see an error message but you can ignore this for now.
