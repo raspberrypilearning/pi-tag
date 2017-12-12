@@ -10,7 +10,7 @@ If you are using the LED which comes with the kit, it will already have jumper w
 
 --- collapse ---
 ---
-title: How to set up your RGB LED
+title: Instructions if your RGB LED is not pre-wired
 ---
 If you bought your LED separately, you will need to do some soldering. Solder a 100 Ohm resistor to each of the short legs of the LED, then attach a female-female jumper lead to the other end of each resistor. Add one more female-female lead directly attached to the long leg of the LED.
 

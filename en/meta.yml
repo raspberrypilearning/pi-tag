@@ -18,3 +18,8 @@ steps:
   - title: Test the RFID reader
   - title: Write to a card
   - title: Add an LED
+  - title: Tag!
+  - title: "Challenge: no cheating"
+  - title: Auto start on boot
+  - title: Put it all together
+  - title: "Challenge: more games"

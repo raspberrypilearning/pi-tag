@@ -32,3 +32,5 @@ card_id, card_text = reader.write(text)
 + If you want to check whether the write has worked, close the Python shell and then run your `rfid_test.py` program before scanning the card. You should see the text `blue` is now associated with the card you used.
 
 ![Hold near RFID](images/hold-near-rfid.png)
+
++ Write the word **red** to a second card as we will need this to test the game out in a later step.
