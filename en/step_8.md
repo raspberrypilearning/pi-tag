@@ -22,17 +22,17 @@ You might be wondering why `(1, 1, 1)` turns the LED white. The three numbers re
 
 [[[generic-theory-simple-colours]]]
 
-+ Add some code to turn the LED red if a card which has the text `red` is placed near it.
++ Add some code to turn the LED blue if a card which has the text `blue` is placed near it.
 
 ![If red](images/if-red.png)
 
-The colour red is `(1, 0, 0)` because the numbers represent the amount of red, green, blue in that order. We also need to `.strip()` the text before we compare it as it will have whitespace characters attached.
+The colour blue is `(0, 0, 1)` because the numbers represent the amount of red, green, blue in that order. We also need to `.strip()` the text before we compare it as it will have whitespace characters attached.
 
-+ Now use an `elif` to add another piece of code to turn the LED blue if a card which has the text `blue` is held near it.
++ Now use an `elif` to add another piece of code to turn the LED red if a card which has the text `red` is held near it.
 
 ```python
-elif card_text == "blue":
-    led.color = (0, 0, 1)
+elif card_text == "red":
+    led.color = (1, 0, 0)
 ```
 
 + Save your program and run it. Hold your red card next to the reader and check that the LED turns red, and hold the blue card near it to check that the LED turns blue.
