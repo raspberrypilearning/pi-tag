@@ -57,4 +57,4 @@ Using `finally:` means that the GPIO cleanup will happen regardless when you exi
 
 ![Tag read](images/tag-read.png)
 
-+ Press <kbd>Ctrl + C</kbd> to exit the infinite loop in the program. You will see an error message but you can ignore this for now.
++ Close the Python shell to exit the infinite loop in the program. 

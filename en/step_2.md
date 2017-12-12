@@ -9,9 +9,9 @@ We used the [Monk Makes clever card kit](https://www.monkmakes.com/cck/){:target
 + RFID tag reader
 + RFID tag or card
 + 7 female-female jumper leads
-+ RGB LED with pre-attached jumper leads
++ Pre-wired RGB LED
 
-However, you could purchase these components separately.
+If you are not using the kit you will need a RGB LED, 3x100 Ohm resistors and 4 additional female-female jumper leads to replace the pre-wired LED.
 
 Plus:
 
@@ -51,4 +51,5 @@ Your Raspberry Pi will reboot after the final command.
 + Old t-shirt or sports bib
 + Needle and thread
 + Glove
-+ Soldering iron or hammer (depending on your chosen header)
++ Soldering iron
++ Hammer (optional, depending on your chosen header)

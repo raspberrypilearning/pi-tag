@@ -1,8 +1,8 @@
 ## Write to a card
 
-Each RFID tag or card has a very small amount of memory which can be written to. You can only write up to 48 characters, so let's write the player's name onto the card.
+Each RFID tag or card has a very small amount of memory which can be written to. You can only write up to 48 characters, so let's write the name of a colour onto the card so that each player can have their own colour.
 
-+ Make a copy of your test program and call it `write_name.py`. Save it in the same folder.
++ Make a copy of your test program and call it `write_card.py`. Save it in the same folder.
 
 + Locate this line of code which reads a card and remove it:
 
@@ -29,6 +29,6 @@ card_id, card_text = reader.write(text)
 
 ![Write text](images/write-text.png)
 
-+ If you want to check whether the write has worked, press <kbd>Ctrl + C</kbd> and then run your `rfid_test.py` program before scanning the card.
++ If you want to check whether the write has worked, close the Python shell and then run your `rfid_test.py` program before scanning the card. You should see the text `blue` is now associated with the card you used.
 
 ![Hold near RFID](images/hold-near-rfid.png)

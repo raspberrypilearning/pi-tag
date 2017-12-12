@@ -17,3 +17,4 @@ steps:
   - title: Set up the RFID reader
   - title: Test the RFID reader
   - title: Write to a card
+  - title: Add an LED
