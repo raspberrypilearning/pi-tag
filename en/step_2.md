@@ -44,7 +44,7 @@ sudo reboot
 
 Your Raspberry Pi will reboot after the final command.
 
-The clever card kit software is used under the [MIT Licence](https://github.com/raspberrypilearning/pi-tag)
+The clever card kit software is used under the [MIT Licence](https://github.com/raspberrypilearning/pi-tag) and is Copyright (c) 2016 Simon Monk.
 
 --- /collapse ---
 
