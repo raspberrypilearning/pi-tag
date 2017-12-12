@@ -2,7 +2,7 @@
 
 Create an outdoor physical computing tag game with RFID readers.
 
-This resource is a simplified version of an [original idea](https://youtu.be/CM7YRi4nfeQ){:target="_blank"} by winning Pioneers team Robot Apocalypse Committee for the **Make it outdoors** theme. You can see their original [PiTag code](https://github.com/RobotApocalypseCommittee/PiTag){:target="_blank"} and [PiTag server code](https://github.com/RobotApocalypseCommittee/PiTagServer){:target="_blank"} on GitHub.
+This resource is a simplified version of an [original idea](https://youtu.be/CM7YRi4nfeQ){:target="_blank"} by winning Pioneers team Robot Apocalypse Committee for the **Make it outdoors** theme. 
 
 ### What you will make
 
