@@ -4,7 +4,7 @@
 
 You will need one set of hardware per player, so for example if you have two tag players you will need to double the kit quantities on this list.
 
-We used the [Monk Makes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which contains all of the following components:
+We recommend using the [Monk Makes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which contains all of the following components:
 
 + RFID tag reader
 + RFID tag or card
@@ -43,6 +43,8 @@ sudo reboot
 ```
 
 Your Raspberry Pi will reboot after the final command.
+
+The clever card kit software is used under the [MIT Licence](https://github.com/raspberrypilearning/pi-tag)
 
 --- /collapse ---
 

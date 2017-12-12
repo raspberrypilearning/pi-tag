@@ -8,9 +8,7 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 Based on a work at https://github.com/raspberrypilearning/pi-tag.
 
-Clever Card Kit software used in this project is released under the MIT License (MIT)
-
-Copyright (c) 2016 Simon Monk
+Clever Card Kit software used in this project is released under the MIT License (MIT) and is Copyright (c) 2016 Simon Monk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
