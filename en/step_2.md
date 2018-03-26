@@ -2,7 +2,7 @@
 
 ### Hardware
 
-You will need one set of hardware per player, for example, if you have two tag players, you will need to double the kit quantities on this list.
+You will need one set of hardware per player. For example, if you have two tag players, you will need to double the quantities on this list.
 
 + 1× Raspberry Pi Zero **or** Zero W **or** Zero WH
 + 1× male header **or** male [hammer header](https://shop.pimoroni.com/products/gpio-hammer-header){:target="_blank"} (if you're not using the Zero WH)
