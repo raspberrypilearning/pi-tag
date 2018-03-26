@@ -2,9 +2,9 @@
 
 Now we need to combine the two programs so that when a player 'tags' another player's RFID reader with their tag, the LED changes colour.
 
-+ Open up your `rfid_test.py` file and save a copy of the file in the same folder, called `tag_game.py`
++ Open up your `rfid_test.py` file, and save a copy of it called `tag_game.py` in the same folder.
 
-+ At the top of your program with the other import statements, import the RGBLED class from the gpiozero library
++ At the top of your program with the other import statements, import the `RGBLED` class from the `gpiozero` library
 
 ```python
 from gpiozero import RGBLED
