@@ -18,7 +18,7 @@ Instead, you will write some text to the card. First you need to know what text 
 text = input("Enter the text to write: ")
 ```
 
-+ Below that, add a line of code to write the text to the card:
++ Below that, add a line of code to instruct the player to hold the card to the reader, and another line to then write the text to the card:
 
 ```python
 print("Hold the tag near the reader")
