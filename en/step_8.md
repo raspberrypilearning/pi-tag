@@ -22,13 +22,11 @@ You might be wondering why `(1, 1, 1)` turns the LED white. The three numbers re
 
 [[[generic-theory-simple-colours]]]
 
-+ Add some code to turn the LED blue if a card that stores the text `blue` is placed near the RFID reader.
++ Add some code to turn the LED blue if a card that stores the text `blue` is held near the RFID reader. You also need to `.strip()` the `card_text` before you compare it, as it might contain whitespace characters.
 
 ![If red](images/if-red.png)
 
-The colour blue is `(0, 0, 1)`. We also need to `.strip()` the text before we compare it, as it will have whitespace characters attached.
-
-+ Now use an `elif` to add another piece of code to turn the LED red if a card which has the text `red` is held near it.
++ Now use an `elif` to add another piece of code to turn the LED red if a card that stores the text `red` is held near the RFID reader.
 
 ```python
 elif card_text == "red":
