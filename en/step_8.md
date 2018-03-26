@@ -29,7 +29,7 @@ You might be wondering why `(1, 1, 1)` turns the LED white. The three numbers re
 + Now use an `elif` to add another piece of code to turn the LED red if a card that stores the text `red` is held near the RFID reader.
 
 ```python
-elif card_text == "red":
+elif card_text.strip() == "red":
     led.color = (1, 0, 0)
 ```
 
