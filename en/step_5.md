@@ -52,7 +52,7 @@ finally:
 
 Using `finally:` means that the GPIO clean-up will happen every time you exit the program, and this will prevent errors from occurring when you restart the program.
 
-+ Save and run your code. Hold your RFID tag next to the reader and check that a value appears in the shell.
++ Save and run your code. Hold your RFID card next to the reader and check that a value appears in the shell.
 
 ![Tag read](images/tag-read.png)
 
