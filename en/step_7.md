@@ -27,7 +27,7 @@ The longest leg of your LED is probably the **cathode**, which means it should b
 
 + Create a new Python file called `led_test.py`, and save it in the same folder as your previous files.
 
-+ This time, import the `gpiozero` library to control the LED:
++ + At the top of your new file, import the `RGBLED` class from the `gpiozero` library to control your LED.
 
 ```Python
 from gpiozero import RGBLED
