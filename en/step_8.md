@@ -4,13 +4,13 @@ Now we need to combine the two programs so that when a player 'tags' another pla
 
 + Open up your `rfid_test.py` file, and save a copy of it called `tag_game.py` in the same folder.
 
-+ At the top of your program with the other import statements, import the `RGBLED` class from the `gpiozero` library
++ At the top of your program with the other import statements, import the `RGBLED` class from the `gpiozero` library.
 
 ```python
 from gpiozero import RGBLED
 ```
 
-+ Underneath the line of code where you connect to the RFID reader, add a line of code to set up the LED, turn it white and print `"Ready"` so you know when everything is set up ready to begin the game.
++ Below the line of code where you connect to the RFID reader, add a line of code to set up the LED, turn it white, and print `"Ready"` so you know when everything is set up ready to begin the game.
 
 ```python
 led = RGBLED(red=18, green=23, blue=24)
@@ -18,15 +18,15 @@ led.color = (1, 1, 1)
 print("Ready")
 ```
 
-You might be wondering why `(1, 1, 1)` turns the LED white. The three numbers represent the amount of red, green and blue in that order. Using the full amount of each colour (in this case, 1) makes white.
+You might be wondering why `(1, 1, 1)` turns the LED white. The three numbers represent the amounts of red, green, and blue (in that order). Using the full amount of each colour (in this case `1`) creates white.
 
 [[[generic-theory-simple-colours]]]
 
-+ Add some code to turn the LED blue if a card which has the text `blue` is placed near it.
++ Add some code to turn the LED blue if a card that stores the text `blue` is placed near the RFID reader.
 
 ![If red](images/if-red.png)
 
-The colour blue is `(0, 0, 1)` because the numbers represent the amount of red, green, blue in that order. We also need to `.strip()` the text before we compare it as it will have whitespace characters attached.
+The colour blue is `(0, 0, 1)`. We also need to `.strip()` the text before we compare it, as it will have whitespace characters attached.
 
 + Now use an `elif` to add another piece of code to turn the LED red if a card which has the text `red` is held near it.
 
