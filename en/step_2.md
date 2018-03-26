@@ -2,22 +2,26 @@
 
 ### Hardware
 
-You will need one set of hardware per player, so for example if you have two tag players you will need to double the kit quantities on this list.
+You will need one set of hardware per player, for example, if you have two tag players, you will need to double the kit quantities on this list.
 
-We recommend using the [Monk Makes clever card kit](https://www.monkmakes.com/cck/){:target="_blank"} which contains all of the following components:
++ 1× Raspberry Pi Zero **or** Zero W **or** Zero WH
++ 1× male header **or** male [hammer header](https://shop.pimoroni.com/products/gpio-hammer-header){:target="_blank"} (if you're not using the Zero WH)
++ 1× USB battery pack
 
-+ RFID tag reader
-+ RFID tag or card
-+ 7 female-female jumper leads
-+ Pre-wired RGB LED
+We recommend using the [Monk Makes Clever Card Kit](https://www.monkmakes.com/cck/){:target="_blank"}, which contains all of the following components:
 
-If you are not using the kit you will need a RGB LED, 3x100 Ohm resistors and 4 additional female-female jumper leads to replace the pre-wired LED.
++ 1× RFID tag reader
++ 1× RFID tag or card
++ 7× female-female jumper leads
++ 1× Pre-wired RGB LED
 
-Plus:
+**If you are not using the kit**, you will need:
 
-+ Raspberry Pi Zero or Zero-W
-+ Male header OR male [hammer header](https://shop.pimoroni.com/products/gpio-hammer-header){:target="_blank"}
-+ USB battery pack
++ 1× RFID tag reader
++ 1× RFID tag or card
++ 11× female-female jumper leads
++ 1× RGB LED
++ 3× 100 Ohm resistors
 
 ### Software
 
@@ -30,7 +34,7 @@ Plus:
 title: Easy software installation
 ---
 
-+ Open a terminal
++ Open a terminal window.
 
 + Type the following commands, pressing <kbd>Enter</kbd> on the keyboard in between each one:
 
@@ -44,13 +48,13 @@ sudo reboot
 
 Your Raspberry Pi will reboot after the final command.
 
-The clever card kit software is used under the [MIT Licence](https://github.com/raspberrypilearning/pi-tag) and is Copyright (c) 2016 Simon Monk.
+The Clever Card Kit software is used under the [MIT Licence](https://github.com/raspberrypilearning/pi-tag) and is copyright (c) 2016 Simon Monk.
 
 --- /collapse ---
 
-### Additional Resources
+### Additional resources
 
-+ Old t-shirt or sports bib
++ Old T-shirt or sports bib
 + Needle and thread
 + Glove
 + Soldering iron
