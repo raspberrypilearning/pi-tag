@@ -20,7 +20,8 @@ steps:
 - title: What you will need
 - title: Attach the header
 - title: Set up the RFID reader
-  completion: engaged
+  completion:
+  - engaged
 - title: Test the RFID reader
 - title: Write to a card
 - title: Add an LED
@@ -28,5 +29,6 @@ steps:
 - title: 'Challenge: no cheating'
 - title: Auto-start on boot
 - title: Put it all together
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: more games'
